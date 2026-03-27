@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/webcv/static/css/main.12a23145.css",
-    "main.js": "/webcv/static/js/main.e671c66f.js",
-    "static/js/453.6e4f956a.chunk.js": "/webcv/static/js/453.6e4f956a.chunk.js",
-    "static/media/pfp.jpg": "/webcv/static/media/pfp.6194a5246cfd0de48d18.jpg",
-    "static/media/telephone-handle-silhouette.png": "/webcv/static/media/telephone-handle-silhouette.ddf68043e6743fbc6a31.png",
-    "index.html": "/webcv/index.html",
-    "main.12a23145.css.map": "/webcv/static/css/main.12a23145.css.map",
-    "main.e671c66f.js.map": "/webcv/static/js/main.e671c66f.js.map",
-    "453.6e4f956a.chunk.js.map": "/webcv/static/js/453.6e4f956a.chunk.js.map"
+    "main.css": "/,https://thristan363-del.github.io/webcv/static/css/main.12a23145.css",
+    "main.js": "/,https://thristan363-del.github.io/webcv/static/js/main.b556eef4.js",
+    "static/js/453.6e4f956a.chunk.js": "/,https://thristan363-del.github.io/webcv/static/js/453.6e4f956a.chunk.js",
+    "static/media/pfp.jpg": "/,https://thristan363-del.github.io/webcv/static/media/pfp.6194a5246cfd0de48d18.jpg",
+    "static/media/telephone-handle-silhouette.png": "/,https://thristan363-del.github.io/webcv/static/media/telephone-handle-silhouette.ddf68043e6743fbc6a31.png",
+    "index.html": "/,https://thristan363-del.github.io/webcv/index.html",
+    "main.12a23145.css.map": "/,https://thristan363-del.github.io/webcv/static/css/main.12a23145.css.map",
+    "main.b556eef4.js.map": "/,https://thristan363-del.github.io/webcv/static/js/main.b556eef4.js.map",
+    "453.6e4f956a.chunk.js.map": "/,https://thristan363-del.github.io/webcv/static/js/453.6e4f956a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12a23145.css",
-    "static/js/main.e671c66f.js"
+    "static/js/main.b556eef4.js"
   ]
 }
