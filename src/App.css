@@ -1,0 +1,346 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: rgb(14, 14, 14);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.portfolio {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 130px;
+  background: #070707;
+  border-right: 1px solid #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 25px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  border: 6px solid #2a2a2a;
+}
+
+.sidebar-name {
+  margin: 8px 0 0 0;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sidebar-nav {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 18px 0;
+  transition: 0.3s;
+}
+
+.sidebar-nav a:hover {
+  background: #1b1b1b;
+}
+
+/* SCROLL AREA */
+.main-scroll {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.page-section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+  padding: 40px 30px;
+}
+
+/* ABOUT */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left {
+  width: 52%;
+}
+
+.about-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name,
+.name1 {
+  margin: 0;
+  font-size: 58px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 1.05;
+}
+
+.name1 {
+  margin-top: 10px;
+}
+
+hr {
+  width: 68%;
+  margin: 12px 0 14px 0;
+  border: none;
+  border-top: 2px solid #e5e5e5;
+}
+
+.webdev {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  gap: 52px;
+  margin-top: 42px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 110px;
+}
+
+.contact-item p {
+  margin: 10px 0 0 0;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+.icon {
+  object-fit: contain;
+  display: block;
+}
+
+.gmail-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.phone-icon {
+  width: 52px;
+  height: 52px;
+  filter: brightness(0) invert(1);
+}
+
+.fb-icon {
+  width: 46px;
+  height: 46px;
+  filter: brightness(0) invert(1);
+}
+
+.github {
+  margin-top: 24px;
+  width: 158px;
+  height: 48px;
+  border: none;
+  border-radius: 15px;
+  background: #171717;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* CARD STACK */
+.card-stack {
+  position: relative;
+  width: 360px;
+  height: 400px;
+}
+
+.back-card {
+  position: absolute;
+  width: 300px;
+  height: 340px;
+  border-radius: 14px;
+  background: rgba(35, 35, 35, 0.7);
+  top: 30px;
+  left: 30px;
+}
+
+.back-card-1 {
+  transform: rotate(-1deg);
+  opacity: 0.35;
+}
+
+.back-card-2 {
+  transform: rotate(7deg);
+  top: 18px;
+  left: 46px;
+  opacity: 0.45;
+}
+
+.profile-card {
+  position: absolute;
+  width: 300px;
+  height: 340px;
+  border-radius: 14px;
+  background: #1d1d1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 25px;
+  left: 38px;
+  transform: rotate(-5deg);
+}
+
+.circle {
+  width: 215px;
+  height: 215px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+/* SECTION TITLES */
+.section-title {
+  margin: 0 0 30px 0;
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* PROJECTS */
+.project-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 320px;
+  min-height: 140px;
+  background: #111214;
+  border-radius: 14px;
+  padding: 22px;
+  box-sizing: border-box;
+}
+
+.project-card h2 {
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.project-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/* EDUCATION */
+.edu-card {
+  background: #111214;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 18px;
+}
+
+.edu-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.edu-card ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.edu-card li {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.cert-title {
+  margin-top: 30px;
+}
+
+.cert-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 180px;
+}
+
+.cert-btn {
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  background: #171717;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active-cert {
+  background: #f2f2f2;
+  color: black;
+}
+.sidebar-pfp {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-pfp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
